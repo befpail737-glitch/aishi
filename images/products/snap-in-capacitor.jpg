@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <g transform="scale(4)">
+    <!-- Snap-in Capacitor -->
+    <ellipse cx="120" cy="140" rx="50" ry="70" fill="#d1d5db" stroke="#9ca3af" stroke-width="4"/>
+    <!-- Top part -->
+    <rect x="90" y="50" width="60" height="40" rx="6" fill="#d1d5db" stroke="#9ca3af" stroke-width="4"/>
+    <!-- Snap-in terminals -->
+    <rect x="100" y="40" width="10" height="20" fill="#6b7280"/>
+    <rect x="130" y="40" width="10" height="20" fill="#6b7280"/>
+    <!-- Plus and minus signs -->
+    <line x1="104" y1="46" x2="116" y2="46" stroke="#ef4444" stroke-width="4"/>
+    <line x1="110" y1="40" x2="110" y2="52" stroke="#ef4444" stroke-width="4"/>
+    <line x1="134" y1="46" x2="146" y2="46" stroke="#3b82f6" stroke-width="4"/>
+    <!-- Capacitor symbol inside -->
+    <line x1="90" y1="90" x2="150" y2="90" stroke="#4b5563" stroke-width="4"/>
+    <line x1="90" y1="120" x2="150" y2="120" stroke="#4b5563" stroke-width="4"/>
+    <path d="M120 90 L120 120" stroke="#4b5563" stroke-width="4" stroke-dasharray="4,4"/>
+    <!-- Label -->
+    <text x="120" y="240" font-size="20" text-anchor="middle" fill="#4b5563" font-family="Arial">Snap-in Electrolytic Capacitor</text>
+  </g>
+</svg>

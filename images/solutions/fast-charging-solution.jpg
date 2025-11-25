@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <g transform="scale(2)">
+    <!-- Phone with charging indicator -->
+    <rect x="180" y="80" width="40" height="70" rx="5" fill="#e2e8f0" stroke="#64748b" stroke-width="3"/>
+    <!-- Phone screen -->
+    <rect x="185" y="85" width="30" height="40" rx="2" fill="#0ea5e9"/>
+    <!-- Charging indicator -->
+    <path d="M195 130 L205 130 L195 140 Z" fill="#22c55e"/>
+    <!-- Charging symbol -->
+    <path d="M197 100 L200 95 L203 105 L195 105 Z" fill="white"/>
+    <!-- Cable -->
+    <path d="M200 150 Q250 160 270 200" stroke="#64748b" stroke-width="8" fill="none"/>
+    <!-- USB Port -->
+    <rect x="265" y="195" width="10" height="10" fill="#64748b"/>
+    <!-- Power Supply -->
+    <rect x="280" y="190" width="80" height="50" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="4"/>
+    <!-- Aishi Capacitors on Power Supply -->
+    <rect x="290" y="200" width="20" height="15" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="315" y="200" width="20" height="15" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="290" y="220" width="20" height="15" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="315" y="220" width="20" height="15" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <!-- Power symbol -->
+    <circle cx="345" cy="215" r="8" fill="none" stroke="#f59e0b" stroke-width="2"/>
+    <path d="M345 207 L345 223" stroke="#f59e0b" stroke-width="2"/>
+    <!-- Lightning bolt -->
+    <path d="M340 200 L350 200 L345 210 L350 230 L340 230 L345 220 L340 220 Z" fill="#f59e0b"/>
+    <!-- Heat dissipation vents -->
+    <g stroke="#64748b" stroke-width="1">
+      <line x1="285" y1="205" x2="355" y2="205"/>
+      <line x1="285" y1="215" x2="355" y2="215"/>
+      <line x1="285" y1="225" x2="355" y2="225"/>
+    </g>
+    <!-- Label -->
+    <text x="200" y="320" font-size="20" text-anchor="middle" fill="#4b5563" font-family="Arial">Fast Charging Solution with Aishi Capacitors</text>
+    <text x="200" y="340" font-size="16" text-anchor="middle" fill="#6b7280" font-family="Arial">High Power Density, Low ESR Design</text>
+  </g>
+</svg>

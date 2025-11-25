@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <g transform="scale(2)">
+    <!-- Simplified world map -->
+    <path d="M100,150 C120,140 140,140 160,150 C180,160 200,160 220,150 C240,140 260,140 280,150 
+             L280,220 C260,230 240,230 220,220 C200,210 180,210 160,220 C140,230 120,230 100,220 Z" 
+          fill="#cbd5e1" stroke="#94a3b8" stroke-width="2"/>
+    <!-- Continents -->
+    <!-- Asia -->
+    <path d="M200,140 Q240,130 260,150 Q270,170 260,180 Q240,190 220,180 Q200,170 200,160 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- Europe -->
+    <path d="M140,130 Q160,125 180,130 Q185,140 180,150 Q160,155 140,150 Q135,140 140,130 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- North America -->
+    <path d="M80,120 Q100,110 120,120 Q130,140 120,160 Q100,170 80,160 Q70,140 80,120 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- South America -->
+    <path d="M100,180 Q110,190 105,210 Q95,220 90,210 Q85,200 90,190 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- Africa -->
+    <path d="M160,170 Q180,160 190,170 Q195,190 185,200 Q170,210 160,200 Q155,190 160,170 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    <!-- Australia -->
+    <path d="M240,200 Q250,195 260,200 Q260,210 250,215 Q240,210 240,200 Z" 
+          fill="#e2e8f0" stroke="#94a3b8" stroke-width="1"/>
+    
+    <!-- Office locations with pins -->
+    <!-- Hong Kong -->
+    <circle cx="220" cy="150" r="4" fill="#1a4e8c"/>
+    <path d="M220,146 L218,152 L222,152 Z" fill="#1a4e8c"/>
+    <text x="220" y="140" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">HK</text>
+    
+    <!-- Beijing -->
+    <circle cx="230" cy="140" r="4" fill="#1a4e8c"/>
+    <path d="M230,136 L228,142 L232,142 Z" fill="#1a4e8c"/>
+    <text x="230" y="130" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">BJ</text>
+    
+    <!-- Shanghai -->
+    <circle cx="225" cy="155" r="4" fill="#1a4e8c"/>
+    <path d="M225,151 L223,157 L227,157 Z" fill="#1a4e8c"/>
+    <text x="225" y="165" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">SH</text>
+    
+    <!-- Shenzhen -->
+    <circle cx="220" cy="165" r="4" fill="#1a4e8c"/>
+    <path d="M220,161 L218,167 L222,167 Z" fill="#1a4e8c"/>
+    <text x="220" y="175" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">SZ</text>
+    
+    <!-- USA -->
+    <circle cx="110" cy="140" r="4" fill="#1a4e8c"/>
+    <path d="M110,136 L108,142 L112,142 Z" fill="#1a4e8c"/>
+    <text x="110" y="130" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">USA</text>
+    
+    <!-- Germany -->
+    <circle cx="165" cy="135" r="4" fill="#1a4e8c"/>
+    <path d="M165,131 L163,137 L167,137 Z" fill="#1a4e8c"/>
+    <text x="165" y="125" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">DE</text>
+    
+    <!-- Japan -->
+    <circle cx="250" cy="145" r="4" fill="#1a4e8c"/>
+    <path d="M250,141 L248,147 L252,147 Z" fill="#1a4e8c"/>
+    <text x="250" y="135" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">JP</text>
+    
+    <!-- India -->
+    <circle cx="200" cy="170" r="4" fill="#1a4e8c"/>
+    <path d="M200,166 L198,172 L202,172 Z" fill="#1a4e8c"/>
+    <text x="200" y="180" font-size="8" text-anchor="middle" fill="#4b5563" font-family="Arial">IN</text>
+    
+    <!-- Aishi global network text -->
+    <text x="200" y="250" font-size="16" text-anchor="middle" fill="#4b5563" font-family="Arial">LiTong Group Global Sales Network</text>
+    <text x="200" y="265" font-size="12" text-anchor="middle" fill="#6b7280" font-family="Arial">Aishi Authorized Distributors Worldwide</text>
+    
+    <!-- Connection lines -->
+    <g stroke="#cbd5e1" stroke-width="1">
+      <line x1="220" y1="150" x2="230" y2="140"/>
+      <line x1="220" y1="150" x2="225" y2="155"/>
+      <line x1="220" y1="150" x2="220" y2="165"/>
+      <line x1="220" y1="150" x2="110" y2="140"/>
+      <line x1="220" y1="150" x2="165" y2="135"/>
+      <line x1="220" y1="150" x2="250" y2="145"/>
+      <line x1="220" y1="150" x2="200" y2="170"/>
+    </g>
+  </g>
+</svg>

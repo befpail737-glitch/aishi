@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Meter box -->
+  <rect x="25" y="30" width="50" height="40" rx="5" fill="#e2e8f0" stroke="#64748b" stroke-width="1.5"/>
+  <!-- Meter display -->
+  <rect x="35" y="40" width="30" height="15" rx="2" fill="#0ea5e9"/>
+  <!-- Display digits -->
+  <g fill="white" font-size="6" font-family="Arial" font-weight="bold">
+    <text x="38" y="52">1</text>
+    <text x="44" y="52">2</text>
+    <text x="50" y="52">3</text>
+    <text x="56" y="52">4</text>
+  </g>
+  <!-- Meter face -->
+  <circle cx="50" cy="50" r="12" fill="#f8fafc" stroke="#64748b" stroke-width="1"/>
+  <!-- Meter needle -->
+  <line x1="50" y1="50" x2="60" y2="45" stroke="#ef4444" stroke-width="1"/>
+  <!-- Meter terminals -->
+  <rect x="30" y="70" width="5" height="10" fill="#6b7280"/>
+  <rect x="40" y="70" width="5" height="10" fill="#6b7280"/>
+  <rect x="50" y="70" width="5" height="10" fill="#6b7280"/>
+  <rect x="60" y="70" width="5" height="10" fill="#6b7280"/>
+  <!-- Internal components -->
+  <circle cx="40" cy="40" r="3" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <circle cx="60" cy="40" r="3" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <circle cx="40" cy="60" r="3" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <circle cx="60" cy="60" r="3" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <!-- Meter text -->
+  <text x="50" y="95" font-size="6" text-anchor="middle" fill="#4b5563" font-family="Arial">Meter</text>
+</svg>

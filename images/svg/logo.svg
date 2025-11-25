@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 100">
+  <!-- Background -->
+  <rect width="200" height="100" fill="white"/>
+  
+  <!-- Main circle representing a capacitor -->
+  <circle cx="60" cy="50" r="35" fill="#1a4e8c" stroke="white" stroke-width="3"/>
+  
+  <!-- Capacitor symbol inside circle -->
+  <line x1="45" y1="35" x2="75" y2="35" stroke="white" stroke-width="3"/>
+  <line x1="45" y1="50" x2="75" y2="50" stroke="white" stroke-width="3"/>
+  <line x1="60" y1="35" x2="60" y2="50" stroke="white" stroke-width="3" stroke-dasharray="4,3"/>
+  
+  <!-- Text -->
+  <text x="110" y="40" font-size="24" font-weight="bold" fill="#1a4e8c" font-family="Arial">Aishi</text>
+  <text x="110" y="65" font-size="18" fill="#4b5563" font-family="Arial">Distributor</text>
+  
+  <!-- Tagline -->
+  <text x="110" y="85" font-size="12" fill="#6b7280" font-family="Arial">Authorized Agent</text>
+</svg>

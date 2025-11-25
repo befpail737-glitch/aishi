@@ -1,0 +1,42 @@
+User-agent: *
+Disallow:
+
+# Allow all pages
+Allow: /
+
+# Sitemap reference
+Sitemap: https://aishi.elec-distributor.com/sitemap.xml
+
+# Crawling delay to be respectful
+Crawl-delay: 5
+
+# Specific directives for different user agents
+User-agent: Googlebot
+Allow: /
+Crawl-delay: 2
+
+User-agent: Bingbot
+Allow: /
+Crawl-delay: 3
+
+User-agent: DuckDuckBot
+Allow: /
+Crawl-delay: 5
+
+# Disallow admin sections if they exist
+User-agent: *
+Disallow: /admin/
+Disallow: /wp-admin/
+Disallow: /administrator/
+Disallow: /private/
+
+# Disallow search result pages
+User-agent: *
+Disallow: /*?s=
+Disallow: /*?search=
+Disallow: /*&page=
+
+# Disallow form submissions
+User-agent: *
+Disallow: /contact/process.php
+Disallow: /forms/

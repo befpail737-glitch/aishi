@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Capacitor body -->
+  <rect x="25" y="25" width="50" height="50" rx="8" fill="#d1d5db" stroke="#9ca3af" stroke-width="2"/>
+  
+  <!-- Bolt terminals -->
+  <circle cx="35" cy="20" r="5" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  <circle cx="65" cy="20" r="5" fill="#6b7280" stroke="#4b5563" stroke-width="2"/>
+  
+  <!-- Washers -->
+  <circle cx="35" cy="20" r="3" fill="#9ca3af"/>
+  <circle cx="65" cy="20" r="3" fill="#9ca3af"/>
+  
+  <!-- Plus and minus signs -->
+  <line x1="32" y1="17" x2="38" y2="17" stroke="#ef4444" stroke-width="2"/>
+  <line x1="35" y1="14" x2="35" y2="20" stroke="#ef4444" stroke-width="2"/>
+  <line x1="62" y1="17" x2="68" y2="17" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Capacitor symbol inside -->
+  <line x1="35" y1="40" x2="65" y2="40" stroke="#4b5563" stroke-width="2"/>
+  <line x1="35" y1="50" x2="65" y2="50" stroke="#4b5563" stroke-width="2"/>
+  <path d="M50 40 L50 50" stroke="#4b5563" stroke-width="2" stroke-dasharray="2,2"/>
+</svg>

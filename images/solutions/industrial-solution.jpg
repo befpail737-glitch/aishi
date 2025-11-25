@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <g transform="scale(2)">
+    <!-- Factory/Industry Background -->
+    <rect x="100" y="80" width="200" height="100" fill="#cbd5e1" stroke="#94a3b8" stroke-width="4"/>
+    <!-- Factory building -->
+    <rect x="110" y="100" width="180" height="60" fill="#e2e8f0" stroke="#64748b" stroke-width="2"/>
+    <!-- Factory roof -->
+    <polygon points="110,100 200,70 290,100" fill="#94a3b8"/>
+    <!-- Factory windows -->
+    <g fill="#7dd3fc">
+      <rect x="120" y="110" width="15" height="20"/>
+      <rect x="140" y="110" width="15" height="20"/>
+      <rect x="160" y="110" width="15" height="20"/>
+      <rect x="180" y="110" width="15" height="20"/>
+      <rect x="200" y="110" width="15" height="20"/>
+      <rect x="220" y="110" width="15" height="20"/>
+      <rect x="240" y="110" width="15" height="20"/>
+    </g>
+    <!-- Motor/Industrial Equipment -->
+    <ellipse cx="200" y="220" rx="40" ry="25" fill="#64748b" stroke="#475569" stroke-width="3"/>
+    <!-- Motor shaft -->
+    <rect x="235" y="215" width="20" height="10" fill="#94a3b8"/>
+    <!-- Gears -->
+    <circle cx="150" y="220" r="15" fill="#475569" stroke="#334155" stroke-width="2"/>
+    <circle cx="120" y="220" r="10" fill="#475569" stroke="#334155" stroke-width="2"/>
+    <!-- Power Control Unit -->
+    <rect x="100" y="250" width="200" height="80" rx="8" fill="#1e293b" stroke="#0f172a" stroke-width="4"/>
+    <!-- Aishi Capacitors in Power Unit -->
+    <rect x="110" y="265" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="150" y="265" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="190" y="265" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="110" y="295" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="150" y="295" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <rect x="190" y="295" width="35" height="25" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+    <!-- Power indicators -->
+    <circle cx="270" cy="270" r="8" fill="#22c55e" stroke="white" stroke-width="2"/>
+    <circle cx="270" cy="290" r="8" fill="#22c55e" stroke="white" stroke-width="2"/>
+    <!-- Industrial control lines -->
+    <line x1="200" y1="160" x2="200" y2="200" stroke="#64748b" stroke-width="3"/>
+    <line x1="200" y1="245" x2="200" y2="250" stroke="#64748b" stroke-width="3"/>
+    <!-- Aishi logo -->
+    <text x="200" y="345" font-size="12" text-anchor="middle" fill="white" font-family="Arial">Aishi Capacitors</text>
+    <!-- Label -->
+    <text x="200" y="380" font-size="20" text-anchor="middle" fill="#4b5563" font-family="Arial">Industrial Drive Solution with Aishi Capacitors</text>
+    <text x="200" y="400" font-size="16" text-anchor="middle" fill="#6b7280" font-family="Arial">High Reliability, High Voltage Tolerance</text>
+  </g>
+</svg>

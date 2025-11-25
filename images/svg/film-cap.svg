@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Capacitor body -->
+  <rect x="20" y="35" width="60" height="30" rx="8" fill="#fde68a" stroke="#f59e0b" stroke-width="2"/>
+  
+  <!-- Leads -->
+  <line x1="30" y1="30" x2="30" y2="15" stroke="#4b5563" stroke-width="3"/>
+  <line x1="70" y1="30" x2="70" y2="15" stroke="#4b5563" stroke-width="3"/>
+  
+  <!-- Plus and minus signs -->
+  <line x1="27" y1="18" x2="33" y2="18" stroke="#ef4444" stroke-width="2"/>
+  <line x1="30" y1="15" x2="30" y2="21" stroke="#ef4444" stroke-width="2"/>
+  <line x1="67" y1="18" x2="73" y2="18" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Stable characteristics indicator -->
+  <path d="M40 70 L45 65 L50 70 L55 65 L60 70" stroke="#059669" stroke-width="2" fill="none"/>
+  <text x="50" y="85" font-size="8" text-anchor="middle" fill="#059669" font-family="Arial">Stable</text>
+  
+  <!-- Capacitor symbol inside -->
+  <line x1="35" y1="40" x2="65" y2="40" stroke="#92400e" stroke-width="2"/>
+  <line x1="35" y1="50" x2="65" y2="50" stroke="#92400e" stroke-width="2"/>
+  <path d="M50 40 L50 50" stroke="#92400e" stroke-width="2" stroke-dasharray="2,2"/>
+</svg>

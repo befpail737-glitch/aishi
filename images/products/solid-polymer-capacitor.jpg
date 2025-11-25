@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600">
+  <rect width="800" height="600" fill="#f0f0f0"/>
+  <g transform="scale(4)">
+    <!-- Solid Polymer Capacitor -->
+    <rect x="60" y="60" width="120" height="120" rx="10" fill="#93c5fd" stroke="#3b82f6" stroke-width="4"/>
+    <!-- Leads -->
+    <line x1="90" y1="50" x2="90" y2="30" stroke="#4b5563" stroke-width="6"/>
+    <line x1="150" y1="50" x2="150" y2="30" stroke="#4b5563" stroke-width="6"/>
+    <!-- Plus and minus signs -->
+    <line x1="86" y1="36" x2="94" y2="36" stroke="#ef4444" stroke-width="4"/>
+    <line x1="90" y1="30" x2="90" y2="42" stroke="#ef4444" stroke-width="4"/>
+    <line x1="146" y1="36" x2="154" y2="36" stroke="#3b82f6" stroke-width="4"/>
+    <!-- Low ESR indicator -->
+    <path d="M100 170 Q120 180 140 170" stroke="#10b981" stroke-width="4" fill="none"/>
+    <text x="120" y="190" font-size="12" text-anchor="middle" fill="#10b981" font-family="Arial">Low ESR</text>
+    <!-- Capacitor symbol inside -->
+    <line x1="85" y1="100" x2="155" y2="100" stroke="#1e40af" stroke-width="4"/>
+    <line x1="85" y1="130" x2="155" y2="130" stroke="#1e40af" stroke-width="4"/>
+    <path d="M120 100 L120 130" stroke="#1e40af" stroke-width="4" stroke-dasharray="4,4"/>
+    <!-- Label -->
+    <text x="120" y="240" font-size="20" text-anchor="middle" fill="#4b5563" font-family="Arial">Solid Polymer Capacitor</text>
+  </g>
+</svg>

@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Factory building -->
+  <rect x="30" y="40" width="40" height="30" fill="#e2e8f0" stroke="#64748b" stroke-width="1"/>
+  <!-- Factory roof -->
+  <polygon points="30,40 50,30 70,40" fill="#94a3b8"/>
+  <!-- Factory windows -->
+  <g fill="#7dd3fc">
+    <rect x="35" y="45" width="5" height="8"/>
+    <rect x="42" y="45" width="5" height="8"/>
+    <rect x="49" y="45" width="5" height="8"/>
+    <rect x="56" y="45" width="5" height="8"/>
+    <rect x="63" y="45" width="5" height="8"/>
+  </g>
+  <!-- Motor/Industrial Equipment -->
+  <ellipse cx="50" y="75" rx="12" ry="8" fill="#64748b" stroke="#475569" stroke-width="1"/>
+  <!-- Motor shaft -->
+  <rect x="60" y="73" width="7" height="4" fill="#94a3b8"/>
+  <!-- Gears -->
+  <circle cx="35" y="75" r="6" fill="#475569" stroke="#334155" stroke-width="0.5"/>
+  <circle cx="25" y="75" r="4" fill="#475569" stroke="#334155" stroke-width="0.5"/>
+  <!-- Power Control Unit -->
+  <rect x="30" y="80" width="40" height="15" rx="2" fill="#1e293b" stroke="#0f172a" stroke-width="1"/>
+  <!-- Aishi Capacitors in Power Unit -->
+  <rect x="33" y="83" width="7" height="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <rect x="42" y="83" width="7" height="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <rect x="51" y="83" width="7" height="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <rect x="60" y="83" width="7" height="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="0.5"/>
+  <!-- Power indicators -->
+  <circle cx="67" cy="84" r="2" fill="#22c55e"/>
+  <circle cx="67" cy="89" r="2" fill="#22c55e"/>
+  <!-- Industrial text -->
+  <text x="50" y="98" font-size="6" text-anchor="middle" fill="#4b5563" font-family="Arial">Industrial</text>
+</svg>

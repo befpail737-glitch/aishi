@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <!-- Capacitor body -->
+  <rect x="25" y="30" width="50" height="40" rx="5" fill="#93c5fd" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Leads -->
+  <line x1="35" y1="25" x2="35" y2="15" stroke="#4b5563" stroke-width="3"/>
+  <line x1="65" y1="25" x2="65" y2="15" stroke="#4b5563" stroke-width="3"/>
+  
+  <!-- Plus and minus signs -->
+  <line x1="32" y1="18" x2="38" y2="18" stroke="#ef4444" stroke-width="2"/>
+  <line x1="35" y1="15" x2="35" y2="21" stroke="#ef4444" stroke-width="2"/>
+  <line x1="62" y1="18" x2="68" y2="18" stroke="#3b82f6" stroke-width="2"/>
+  
+  <!-- Low ESR indicator -->
+  <path d="M40 65 Q50 70 60 65" stroke="#10b981" stroke-width="2" fill="none"/>
+  <text x="50" y="75" font-size="8" text-anchor="middle" fill="#10b981" font-family="Arial">Low ESR</text>
+  
+  <!-- Capacitor symbol inside -->
+  <line x1="35" y1="40" x2="65" y2="40" stroke="#1e40af" stroke-width="2"/>
+  <line x1="35" y1="50" x2="65" y2="50" stroke="#1e40af" stroke-width="2"/>
+  <path d="M50 40 L50 50" stroke="#1e40af" stroke-width="2" stroke-dasharray="2,2"/>
+</svg>

@@ -1,0 +1,464 @@
+/* 
+ * Aishi Distributor Website - Responsive Styles
+ * Responsive design for all device sizes
+ */
+
+/* Mobile First Approach */
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) {
+    .container {
+        padding: 0 30px;
+    }
+    
+    h1 {
+        font-size: 2.75rem;
+    }
+    
+    h2 {
+        font-size: 2.25rem;
+    }
+    
+    .hero-banner h1 {
+        font-size: 2.5rem;
+    }
+    
+    .nav-container {
+        padding: 1rem 30px;
+    }
+    
+    .advantages-grid,
+    .products-grid,
+    .solutions-grid,
+    .news-grid,
+    .categories-grid,
+    .articles-grid,
+    .engineers-grid,
+    .tools-grid,
+    .related-grid,
+    .cases-grid,
+    .certs-grid,
+    .contact-grid,
+    .offices-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    }
+    
+    .form-row {
+        flex-direction: row;
+    }
+    
+    .cta-buttons,
+    .cta-options {
+        flex-direction: row;
+        justify-content: center;
+    }
+}
+
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+    .container {
+        padding: 0 40px;
+    }
+    
+    h1 {
+        font-size: 3rem;
+    }
+    
+    h2 {
+        font-size: 2.5rem;
+    }
+    
+    .nav-menu {
+        display: flex;
+    }
+    
+    .nav-item {
+        margin-left: 1.5rem;
+    }
+    
+    .hero-banner h1 {
+        font-size: 3rem;
+    }
+    
+    .nav-container {
+        padding: 1rem 40px;
+    }
+    
+    .advantages-grid,
+    .products-grid,
+    .solutions-grid,
+    .news-grid,
+    .categories-grid,
+    .articles-grid,
+    .engineers-grid,
+    .tools-grid,
+    .related-grid,
+    .cases-grid,
+    .certs-grid,
+    .contact-grid,
+    .offices-grid {
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    }
+    
+    .page-header .container {
+        align-items: center;
+    }
+    
+    .intro-content {
+        flex: 1;
+        padding-right: 2rem;
+    }
+    
+    .intro-image {
+        flex: 1;
+    }
+    
+    .intro-content,
+    .intro-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .company-intro .container {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .timeline {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 2rem;
+    }
+    
+    .office-region {
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .office-subregion {
+        flex: 1;
+    }
+    
+    .offices-grid > .office-region:nth-child(2) {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.5rem;
+    }
+    
+    .offices-grid > .office-region:nth-child(2) .office-subregion {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    .container {
+        padding: 0 20px;
+    }
+    
+    .nav-container {
+        padding: 1rem 20px;
+    }
+    
+    h1 {
+        font-size: 3.25rem;
+    }
+    
+    h2 {
+        font-size: 2.75rem;
+    }
+    
+    .hero-banner h1 {
+        font-size: 3.5rem;
+    }
+    
+    .advantages-grid,
+    .products-grid,
+    .solutions-grid,
+    .news-grid,
+    .categories-grid,
+    .articles-grid,
+    .engineers-grid,
+    .tools-grid,
+    .related-grid,
+    .cases-grid,
+    .certs-grid,
+    .contact-grid {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .capabilities-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .office-subregion {
+        min-width: 250px;
+    }
+    
+    .offices-grid > .office-region:nth-child(2) {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .cta-buttons {
+        gap: 2rem;
+    }
+    
+    .cta-options {
+        gap: 1.5rem;
+    }
+    
+    .btn {
+        padding: 0.875rem 2rem;
+        font-size: 1.1rem;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    .container {
+        max-width: 1140px;
+        padding: 0;
+    }
+    
+    h1 {
+        font-size: 3.5rem;
+    }
+    
+    h2 {
+        font-size: 3rem;
+    }
+    
+    .hero-banner h1 {
+        font-size: 4rem;
+    }
+    
+    .advantages-grid,
+    .products-grid,
+    .solutions-grid,
+    .news-grid,
+    .categories-grid,
+    .articles-grid,
+    .engineers-grid,
+    .tools-grid,
+    .related-grid,
+    .cases-grid,
+    .certs-grid,
+    .contact-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+    
+    .features-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .team-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .capabilities-grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+}
+
+/* Specific responsive adjustments */
+
+/* Tables */
+@media (max-width: 767px) {
+    .product-table,
+    .series-table,
+    .bom-table {
+        font-size: 0.8rem;
+    }
+    
+    .product-table th,
+    .product-table td,
+    .series-table th,
+    .series-table td,
+    .bom-table th,
+    .bom-table td {
+        padding: 0.5rem;
+    }
+    
+    .product-table th,
+    .product-table td {
+        display: block;
+    }
+    
+    .product-table tr {
+        display: block;
+        margin-bottom: 1rem;
+        border: 1px solid var(--border-color);
+        border-radius: var(--border-radius);
+    }
+    
+    .product-table tr:last-child {
+        margin-bottom: 0;
+    }
+    
+    .product-table td::before {
+        content: attr(data-label) ": ";
+        font-weight: bold;
+        display: inline-block;
+        width: 100px;
+    }
+}
+
+/* Navigation adjustments */
+@media (max-width: 991px) {
+    .nav-container {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    
+    .logo {
+        margin-bottom: 1rem;
+    }
+    
+    .nav-menu {
+        width: 100%;
+        flex-direction: column;
+    }
+    
+    .nav-item {
+        margin: 0;
+        width: 100%;
+    }
+    
+    .nav-link {
+        display: block;
+        padding: 1rem 0;
+        border-bottom: 1px solid var(--border-color);
+    }
+}
+
+/* Footer adjustments */
+@media (min-width: 768px) {
+    .footer-container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+/* Timeline adjustments */
+@media (max-width: 767px) {
+    .timeline {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Offices grid adjustments */
+@media (min-width: 992px) {
+    .offices-grid {
+        display: grid;
+        grid-template-columns: 1fr 2fr;
+        gap: 2rem;
+    }
+    
+    .offices-grid > .office-region:first-child {
+        border-right: 1px solid var(--border-color);
+        padding-right: 1rem;
+    }
+    
+    .offices-grid > .office-region:nth-child(2) {
+        padding-left: 1rem;
+    }
+}
+
+/* Intro section adjustments */
+@media (max-width: 767px) {
+    .company-intro .container {
+        flex-direction: column;
+    }
+    
+    .intro-content {
+        padding-right: 0;
+        margin-bottom: 2rem;
+    }
+    
+    .intro-image {
+        align-self: center;
+    }
+    
+    .intro-image img {
+        max-width: 100%;
+        height: auto;
+    }
+}
+
+/* Breadcrumb adjustments */
+@media (max-width: 575px) {
+    .breadcrumb {
+        font-size: 0.8rem;
+    }
+    
+    .page-header h1 {
+        font-size: 1.8rem;
+    }
+}
+
+/* Buttons adjustments */
+@media (max-width: 400px) {
+    .btn {
+        padding: 0.75rem 1rem;
+        font-size: 0.9rem;
+    }
+    
+    .cta-buttons,
+    .cta-options {
+        flex-direction: column;
+        align-items: stretch;
+    }
+}
+
+/* Article content adjustments */
+@media (min-width: 768px) {
+    .content-article .container {
+        max-width: 800px;
+    }
+}
+
+/* Product intro adjustments */
+@media (min-width: 768px) {
+    .product-intro .container {
+        display: flex;
+        gap: 2rem;
+    }
+    
+    .product-intro-content {
+        flex: 2;
+    }
+    
+    .product-cta {
+        flex: 1;
+        padding: 1.5rem;
+        background-color: var(--light-bg);
+        border-radius: var(--border-radius);
+        align-self: flex-start;
+        height: fit-content;
+    }
+}
+
+/* Solution block diagram adjustments */
+@media (max-width: 767px) {
+    .diagram-container img {
+        max-width: 100%;
+        height: auto;
+    }
+}
