@@ -1,0 +1,3 @@
+User-agent: *
+Disallow:
+Sitemap: https://aishi.elec-distributor.com/sitemap.xml
